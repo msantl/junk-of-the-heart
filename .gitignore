@@ -1,0 +1,6 @@
+# exclude vim swap files
+*.swp
+
+# exclude binary and object files
+*/bin/*
+*/obj/*
