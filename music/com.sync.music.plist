@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.sync.music</string>
+    <key>Program</key>
+    <string>/Users/msantl/scripts/sync_music.sh</string>
+    <key>LaunchEvents</key>
+    <dict>
+      <key>com.apple.iokit.matching</key>
+      <dict>
+        <key>com.apple.device-attach</key>
+        <dict>
+          <key>idProduct</key>
+          <integer>4096</integer>
+          <key>idVendor</key>
+          <integer>2316</integer>
+          <key>IOProviderClass</key>
+          <string>IOUSBDevice</string>
+          <key>IOMatchLaunchStream</key>
+          <true/>
+        </dict>
+      </dict>
+    </dict>
+    <key>UserName</key>
+    <string>msantl</string>
+    <key>KeepAlive</key>
+    <false/>
+    <key>RunAtLoad</key>
+    <false/>
+    <key>ThrottleInterval</key>
+    <integer>14400</integer>
+    <key>StartOnMount</key>
+    <true/>
+  </dict>
+</plist>
